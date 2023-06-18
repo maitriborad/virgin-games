@@ -1,0 +1,430 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5922278300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on homepage",
+            "match": {
+              "location": "TopMenuSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2326054200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I accept cookies",
+            "match": {
+              "location": "TopMenuSteps.iAcceptCookies()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 227940696900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User can see all options in Top menu of Homepage",
+        "description": "",
+        "id": "top-menu-test;user-can-see-all-options-in-top-menu-of-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 7919568900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3436804600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User can see all option on TopMenuBar",
+            "match": {
+              "location": "TopMenuSteps.userCanSeeAllOptionOnTopMenuBar(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "options"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Online Slots"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Live Casino"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Casino"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Slingo"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Online Bingo"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Free Games"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Poker"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "All Games"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on homepage",
+            "match": {
+              "location": "TopMenuSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 408241100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I accept cookies",
+            "match": {
+              "location": "TopMenuSteps.iAcceptCookies()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 125386044000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User can navigate to Online slots page",
+        "description": "",
+        "id": "top-menu-test;user-can-navigate-to-online-slots-page",
+        "after": [
+          {
+            "result": {
+              "duration": 3603024700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 90440300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on Online Slots",
+            "match": {
+              "location": "TopMenuSteps.iClickOnOnlineSlots()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 862286800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify that User navigated successfully with \"Play Online Slots at Virgin Games\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Play Online Slots at Virgin Games",
+                  "offset": 46
+                }
+              ],
+              "location": "TopMenuSteps.verifyThatUserNavigatedSuccessfullyWith(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 38500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on homepage",
+            "match": {
+              "location": "TopMenuSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133350300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I accept cookies",
+            "match": {
+              "location": "TopMenuSteps.iAcceptCookies()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 33471315200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "User can navigate to Live Casino page",
+        "description": "",
+        "id": "top-menu-test;user-can-navigate-to-live-casino-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1602138800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94823800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on Live Casino",
+            "match": {
+              "location": "TopMenuSteps.iClickOnLiveCasino()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 542956000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify that User navigated successfully with \"Try Live Casino - Live Action\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Try Live Casino - Live Action",
+                  "offset": 46
+                }
+              ],
+              "location": "TopMenuSteps.verifyThatUserNavigatedSuccessfullyWith(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on homepage",
+            "match": {
+              "location": "TopMenuSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170732200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I accept cookies",
+            "match": {
+              "location": "TopMenuSteps.iAcceptCookies()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 23678129100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "User can navigate to Casino page",
+        "description": "",
+        "id": "top-menu-test;user-can-navigate-to-casino-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1995646300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 105664900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on Casino",
+            "match": {
+              "location": "TopMenuSteps.iClickOnCasino()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 540713800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Verify that User navigated successfully with \"Play Online Casino Games, with Many Classics\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Play Online Casino Games, with Many Classics",
+                  "offset": 46
+                }
+              ],
+              "location": "TopMenuSteps.verifyThatUserNavigatedSuccessfullyWith(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Top Menu Test",
+    "description": "As a user I want to test TopMenu",
+    "id": "top-menu-test",
+    "keyword": "Feature",
+    "uri": "TopMenu.feature"
+  }
+]
